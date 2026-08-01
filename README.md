@@ -39,7 +39,7 @@ uv sync
 
 ## Configuración (variables de entorno)
 
-Las credenciales de Kafka y la dirección del broker **no están hardcodeadas**: se leen de variables de entorno. Copia la plantilla y rellena tus valores:
+Copia la plantilla y rellena tus valores:
 
 ```bash
 cp .env.example .env
@@ -52,8 +52,6 @@ cp .env.example .env
 | `KAFKA_USERNAME` | Usuario SASL/PLAIN |
 | `KAFKA_PASSWORD` | Contraseña SASL/PLAIN |
 | `AWS_REGION` | Región de AWS para Glue/Timestream |
-
-> El archivo `.env` está ignorado por git; nunca subas credenciales reales al repositorio.
 
 ## Uso rápido
 
